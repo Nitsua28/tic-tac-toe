@@ -8,16 +8,17 @@ public class Player {
 
     // this constructor should take in a name and a game piece and assign the values to the fields:
     public Player(String name, char gamePiece) {
-
+        this.name = name;
+        this.gamePiece = gamePiece;
     }
 
     // should return the player's name:
     public String getName() {
-        return "";
+        return this.name;
     }
 
     // should return the game piece of the player:
     public char getGamePiece() {
-        return 0;
+        return this.gamePiece;
     }
 }
