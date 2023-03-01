@@ -125,7 +125,7 @@ public class Game {
     }
     private Status checkBoard(){
         String player1Line = String.valueOf(player1.getGamePiece()).toString().repeat(3); 
-        String player2Line = String.valueOf(player1.getGamePiece()).toString().repeat(3);
+        String player2Line = String.valueOf(player2.getGamePiece()).toString().repeat(3);
         char board[][] = this.board.board;
         for (int i = 0; i < 8; i++){
             String line = null;
